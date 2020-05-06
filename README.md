@@ -43,7 +43,7 @@ To install all the required Python modules you can use:
 ```
 
 ### 2. Download DL models from OMZ
-Use `Model Downloader` to download the required models.
+Use `Model Downloader` to download the required models and convert the downloaded model into OpenVINO IR models with `Model Converter`.  
 ``` sh
 (Linux) python3 $INTEL_OPENVINO_DIR/deployment_tools/tools/model_downloader/downloader.py --list models.lst
         python3 $INTEL_OPENVINO_DIR/deployment_tools/tools/model_downloader/converter.py --list models.lst
