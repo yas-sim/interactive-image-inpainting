@@ -4,7 +4,7 @@ The demo program takes an image file and display it on the screen. User can draw
 You can remove undesired objects from your picture by masking them and the program will generate a natural looking picture without the undesired objects.  
 
 これは[Intel(r) Distribution of OpenVINO(tm) toolkit](https://software.intel.com/en-us/openvino-toolkit)で`inpainting-gmcnn` (画像修復モデル)を使用する方法をデモするプログラムです。  
-デモプログラムは画像を１枚読み込み、表示します。ユーザーが入力画像の上に自由にマスクを描画したのち、プログラムがマスク部分を欠損部分として扱い、欠損部分を補うようにディープラーニングでの推論を行い自動描画(Inpaint)してくれます。  
+デモプログラムは画像を１枚読み込み、表示します。ユーザーが入力画像の上に自由にマスクを描画したのち、プログラムがマスク部分を欠損部分として扱い、欠損部分を補うようにディープラーニングでの推論を行い修復描画(Inpaint)してくれます。  
 絵の中の望ましくない部分(景色に写りこんだ柵や人など)をマスクすることで、それらを取り除いた自然な絵を生成してくれます（当然ですが限度があります:-) ）。  
 
 
