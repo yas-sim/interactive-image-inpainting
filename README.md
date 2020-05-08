@@ -16,7 +16,7 @@ You can remove undesired objects from your picture by masking them and the progr
 
 The demo expects the following models in the Intermediate Representation (IR) format:
 
-  * `gmcnn-place2-tf`
+  * `gmcnn-places2-tf`
 
 You can download this model from OpenVINO [Open Model Zoo](https://github.com/opencv/open_model_zoo).
 In the `models.lst` is the list of appropriate models for this demo that can be obtained via `Model downloader`.
