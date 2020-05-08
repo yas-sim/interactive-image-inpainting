@@ -1,6 +1,6 @@
 # Interactive Image Inpainting Demo
 This program demonstrates how the `inpainting-gmcnn` model works with the [Intel(r) Distribution of OpenVINO(tm) toolkit](https://software.intel.com/en-us/openvino-toolkit).  
-The demo program takes an image file and display it on the screen. User can draw the mask image on top of the input image, then the program will treat the masked areas are lacking and inpaint (compensate) the image by deep learning based inferencing.  
+The demo program takes an image file and displays it on the screen. The user can draw the mask image on top of the input image, then the program will treat the masked areas as they are lacking and inpaint (compensate) the image by deep learning based inferencing.  
 You can remove undesired objects from your picture by masking them and the program will generate a natural looking picture without the undesired objects.  
 
 これは[Intel(r) Distribution of OpenVINO(tm) toolkit](https://software.intel.com/en-us/openvino-toolkit)で`inpainting-gmcnn` (画像修復モデル)を使用する方法をデモするプログラムです。  
