@@ -9,9 +9,9 @@ You can remove undesired objects from your picture by masking them and the progr
 
 
 ### Image Inpainting Result
-![inpainting](./resources/inpainting.jpg)
+![inpainting1](./resources/inpainting.gif)
 
-![inpainting2](./resources/inpainting.gif)
+![inpainting2](./resources/inpainting.jpg)
 
 ### Required DL Models to Run This Demo
 
