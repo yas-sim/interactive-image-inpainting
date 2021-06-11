@@ -65,7 +65,7 @@ The application draws the results on the screen.
 
 ## Tested Environment  
 - Windows 10 x64 1909 and Ubuntu 18.04 LTS  
-- Intel(r) Distribution of OpenVINO(tm) toolkit 2020.2  
+- Intel(r) Distribution of OpenVINO(tm) toolkit 2021.3 
 - Python 3.6.5 x64  
 
 ## See Also  

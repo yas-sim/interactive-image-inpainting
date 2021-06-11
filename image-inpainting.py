@@ -121,8 +121,8 @@ def main():
     input_blob1 = 'Placeholder'
     input_blob2 = 'Placeholder_1'
     out_blob    = 'Minimum'
-    in_shape1   = net.inputs[input_blob1].shape   # 1,3,512,680
-    in_shape2   = net.inputs[input_blob2].shape
+    in_shape1   = net.input_info[input_blob1].tensor_desc.dims  # 1,3,512,680
+    in_shape2   = net.input_info[input_blob2].tensor_desc.dims
     out_shape  = net.outputs[out_blob].shape      # 1,3,512,680
     exec_net = ie.load_network(net, 'CPU')
 
@@ -157,9 +157,8 @@ def main():
         res = exec_net.infer(inputs={input_blob1: img, input_blob2: msk})
         
         out = np.transpose(res[out_blob], (0, 2, 3, 1)).astype(np.uint8)
-        out = cv2.cvtColor(out[0], cv2.COLOR_RGB2BGR)
 
-        cv2.imshow('Result', out)
+        cv2.imshow('Result', out[0])
         cv2.waitKey(1)
 
     return 0
